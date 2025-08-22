@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YOUR_NAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+  <meta name="description" content="YOUR_TAGLINE" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">YOUR_NAME</a>
+    <nav class="nav">
+      <a href="/writing/">Writing</a>
+
+      <a href="mailto:you@example.com">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>YOUR_TAGLINE</h1>
+      <p>I work at the intersection of biology, AI, and scientific method. This site collects my research notes, essays, and talks.</p>
+      <div class="cta">
+        <a class="btn" href="/posts/behavioral-intervention.html">Read: “Software as a Behavioural Intervention in Science”</a>
+      </div>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Research</h2>
+        <p>Ageing biology, transcription factors/IDPs, glycosphingolipids, and AI for experimental design.</p>
+      </article>
+      <article class="card">
+        <h2>Writing</h2>
+        <p>Short essays on reproducibility, experimental design, and the culture of science.</p>
+      </article>
+      <article class="card">
+        <h2>Speaking & Teaching</h2>
+        <p>Lectures for high school/university audiences on scientific questioning and experimental design.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="y"></span> YOUR_NAME · <a href="mailto:you@example.com">you@example.com</a></p>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
