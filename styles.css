@@ -4,6 +4,7 @@ body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto,
 a { color: #0b63f6; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+/* Header & Footer */
 .site-header, .site-footer {
   display:flex; align-items:center; justify-content:space-between;
   padding:16px 20px; border-bottom:1px solid #eee;
@@ -13,19 +14,70 @@ a:hover { text-decoration: underline; }
 .nav a { margin-left:16px; }
 
 .container { max-width: var(--max); margin: 0 auto; padding: 24px 20px; }
-.hero { padding: 24px 0; }
+
+/* HERO */
+.hero { padding: 24px 0; text-align: left; }
 .hero h1 { font-size: 36px; line-height:1.2; margin: 0 0 12px; }
 .cta { margin-top: 16px; }
-.btn {
-  display:inline-block; padding:10px 14px; background:#111; color:#fff; border-radius:8px;
-}
+.btn { display:inline-block; padding:10px 14px; background:#111; color:#fff; border-radius:8px; }
 .btn:hover { background:#222; text-decoration:none; }
 
+/* PROFILE (standalone between sections) */
+.profile { display:flex; justify-content:center; margin: 26px 0; }
+.profile-photo {
+  width: 200px;           /* desktop/base size */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* ABOUT */
+.about { max-width: 800px; margin: 36px auto; padding: 0 20px; }
+.about h2 { font-size: 28px; margin-bottom: 12px; }
+.about p { font-size: 18px; margin-bottom: 14px; line-height: 1.6; }
+
+/* CARDS */
 .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:16px; margin-top:28px; }
 .card { border:1px solid #eee; border-radius:12px; padding:16px; background:#fafafa; }
+.card h2 { margin-top: 0; }
 
+/* Clean list inside cards */
+.clean-list { list-style: none; padding-left: 0; margin: 0; }
+.clean-list li { padding: 4px 0; line-height: 1.6; }
+.clean-list li + li { border-top: 1px solid #eee; margin-top: 6px; padding-top: 10px; }
+
+/* POST PAGES */
 .post { max-width: var(--max); margin: 0 auto; padding: 24px 20px; }
 .post h1 { font-size: 32px; margin: 0 0 10px; }
 .post time { color:#666; font-size:14px; }
 .post p, .post li { font-size: 18px; }
 code, pre { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+
+/* =========================
+   RESPONSIVE TWEAKS
+   ========================= */
+
+/* Small laptops / large tablets */
+@media (max-width: 900px) {
+  .container { padding: 22px 18px; }
+  .hero h1 { font-size: 34px; }
+}
+
+/* Tablets / phones */
+@media (max-width: 680px) {
+  .hero h1 { font-size: 30px; }
+  .brand { font-size: 17px; }
+  .nav a { margin-left: 12px; }
+  .profile-photo { width: 120px; height: 120px; }
+  .about h2 { font-size: 24px; }
+  .about p, .post p, .post li { font-size: 17px; }
+}
+
+/* Small phones */
+@media (max-width: 520px) {
+  .container { padding: 20px 16px; }
+  .hero h1 { font-size: 28px; }
+  .btn { padding: 9px 12px; }
+  .profile-photo { width: 100px; height: 100px; }
+}

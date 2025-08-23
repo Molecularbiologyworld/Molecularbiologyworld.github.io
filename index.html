@@ -3,49 +3,85 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>YOUR_NAME</title>
+  <title>George Han</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css" />
-  <meta name="description" content="YOUR_TAGLINE" />
+  <meta name="description" content="George Han — neuroscience, ageing biology, and AI. Essays, research notes, and talks." />
+  <!-- Social preview -->
+  <meta property="og:title" content="George Han" />
+  <meta property="og:description" content="Neuroscience · Ageing Biology · AI — essays, research notes, and talks." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://molecularbiologyworld.github.io/" />
+  <meta name="twitter:card" content="summary" />
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="/">George Han</a>
     <nav class="nav">
       <a href="/writing/">Writing</a>
-
-      <a href="mailto:you@example.com">Contact</a>
+      <a href="mailto:molecularbiologyworld@gmail.com">Contact</a>
     </nav>
   </header>
 
   <main class="container">
+    <!-- HERO -->
     <section class="hero">
-      <h1>George Han</h1>
-      <p>I work at the intersection of neuroscience, ageing biology, and artificial intelligence. This site collects my essays, thoughts and notes.</p>
-      <div class="cta">
-        <a class="btn" href="/posts/behavioral-intervention.html">Read: “Life Extension and Medically Assisted Dying: Two Sides of the Same Coin in Healthcare”</a>
+      <div class="intro-text">
+        <h1>George Han</h1>
+        <p>I work at the intersection of neuroscience, ageing biology, and artificial intelligence. This site collects my essays, thoughts, and notes.</p>
+        <div class="cta">
+          <a class="btn" href="/posts/life-extension.html">Read: “Life Extension and Medically Assisted Dying”</a>
+        </div>
       </div>
     </section>
 
+    <!-- PROFILE PHOTO BETWEEN HERO AND ABOUT -->
+    <section class="profile">
+      <img src="/assets/me.jpg" alt="Portrait of George Han" class="profile-photo">
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Welcome to my personal website! I am a PhD student at the University of Cambridge. My current work focuses on understanding how defects
+        in glycosphingolipid-processing enzymes change neuronal development and behaviour, and how these alterations link to human neurological disorders.
+        My previous work explored the interface between protein misfolding in neurodegeneration, progeria syndromes, and nuclear architecture.
+      </p>
+      <p>
+        Beyond my primary research, I’m drawn to questions in artificial intelligence, philosophy, and the ethical challenges that arise in healthcare and biomedical research.
+      </p>
+      <p>
+        In my spare time I enjoy science fiction, music, Krav Maga, and HYROX training.
+      </p>
+    </section>
+
+    <!-- CARDS -->
     <section class="cards">
       <article class="card">
-        <h2>Research interest</h2>
-        <p>Neuroscience: neurodegenerative diseases, glycosphingolipids. Ageing biology: progeria syndrome, cellular reprogramming. AI: machine learning for drug design.</p>
+        <h2>Research interests</h2>
+        <ul class="clean-list">
+          <li><strong>Neuroscience:</strong> neurodegenerative diseases (especially Alzheimer’s and other protein-misfolding diseases), and glycosphingolipid-related disorders.</li>
+          <li><strong>Ageing biology:</strong> progeria syndromes, epigenetics, cellular reprogramming, and rejuvenation.</li>
+          <li><strong>AI:</strong> machine learning for structural biology and drug design.</li>
+        </ul>
       </article>
+
       <article class="card">
         <h2>Writing</h2>
-        <p>Short essays on ethics in biology research, experimental design, and the culture of science.</p>
+        <p>Short essays on ethics in biological research, experimental design, and the culture of science.</p>
       </article>
+
       <article class="card">
         <h2>Speaking & Teaching</h2>
-        <p>Lectures for high school students on biology, including introductory biochemistry, structural biology, cell biology, metabolism, neurodegeneration and ageing biology.</p>
+        <p>Lectures for high-school students on biology: introductory biochemistry, structural biology, cell biology, metabolism, neurodegeneration, and ageing.</p>
       </article>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="y"></span> George Han · <a href="mailto:you@example.com">molecularbiologyworld@gmail.com</a></p>
+    <p>© <span id="y"></span> George Han · <a href="mailto:molecularbiologyworld@gmail.com">molecularbiologyworld@gmail.com</a></p>
   </footer>
 
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
