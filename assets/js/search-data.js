@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-three-new-realities-in-the-interface-between-geroscience-and-nonmonetary-sanctions",
+        
+          title: "Three New Realities in the Interface Between Geroscience and Nonmonetary Sanctions",
+        
+        description: "How advances in geroscience — healthspan extension, epigenetic clocks, and cellular reprogramming — challenge traditional non-monetary sanctions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/three-new-realities-in-the-interface-between-geroscience-and-nonmonetary-sanctions/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
