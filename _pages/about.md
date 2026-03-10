@@ -21,9 +21,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
 I am a researcher at the University of Cambridge with a broad interest in the biology of ageing. My work spans the fundamental molecular and cellular processes that drive ageing, as well as specific age-related indications, with a particular focus on neurodegeneration.
