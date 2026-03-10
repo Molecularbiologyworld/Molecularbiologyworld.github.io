@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: <a href='https://www.cam.ac.uk/' target='_blank'>University of Cambridge</a>
 
