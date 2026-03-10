@@ -34,6 +34,8 @@ When the rate of lifespan extension outpaces that of healthspan extension, resul
 
 Despite the complexity introduced here, it is still necessary to consider how individual factors influence decision-making in the legal context. Ideally, we would have personalised punishment to ensure that different individuals receive deterrents calibrated to produce similar behavioural outcomes. However, this approach presents a significant challenge: how do we accurately determine someone's age? Age is not just a number; it encapsulates a range of physical, cognitive, and emotional factors that vary widely among individuals. Accurately assessing these factors is a crucial first step for implementing a justice system that can adapt to the nuances of each person's unique circumstances and ensure equitable deterrence and rehabilitation outcomes.
 
+{% include figure.liquid path="assets/img/figure1_geroscience_sanctions.jpg" class="img-fluid rounded z-depth-1" caption="Figure 1: The marginal deterrence gap prior to and after life expectancy increase, with unchanged, increased and decreased healthspan-to-lifespan ratio." %}
+
 ---
 
 ## Ageing Clocks and Personalised Punishment
