@@ -412,8 +412,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-announcement-1",
-          title: 'Announcement_1',
+            },},{id: "news-george-39-s-first-ethics-paper-published",
+          title: 'George&amp;#39;s first ethics paper published!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
