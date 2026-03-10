@@ -1,5 +1,6 @@
 ---
 layout: post
+title: George's first ethics paper published!
 date: 2026-03-01 00:00:00-0000
 inline: false
 related_posts: false
